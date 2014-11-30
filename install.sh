@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [[ ! -d ~/.tmux ]]; then
-	mkdir ~/.tmux
+    mkdir ~/.tmux
 fi
 
 cp ./tmux.conf ~/.tmux.conf
