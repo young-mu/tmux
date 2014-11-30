@@ -5,4 +5,7 @@ if [[ ! -d ~/.tmux ]]; then
 fi
 
 cp ./tmux.conf ~/.tmux.conf
+echo "install ~/.tmux.conf"
+
 cp ./layout ~/.tmux/layout
+echo "install ~/.tmux/layout"
