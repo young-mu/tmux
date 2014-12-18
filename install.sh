@@ -4,8 +4,8 @@ if [[ ! -d ~/.tmux ]]; then
     mkdir ~/.tmux
 fi
 
-cp ./tmux.conf ~/.tmux.conf
 echo "install ~/.tmux.conf"
+cp ./tmux.conf ~/.tmux.conf
 
-cp ./layout ~/.tmux/layout
-echo "install ~/.tmux/layout"
+echo "install ~/.tmux/layout.gdb"
+cp ./layout.gdb ~/.tmux/layout.gdb
